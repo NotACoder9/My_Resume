@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+    body {
+        background: rgb(204, 204, 204);
+        width: 24cm;
+        margin: 0 auto;
+        height: 29.7cm;
+
+    }
+    img{
+        border-radius: 50%;
+        width: 5cm;
+        height: 5cm;
+        border: 2px solid rgb(1, 240, 248);
+        object-fit: cover;
+        object-position: 50% 50%;
+        margin-bottom: 0.7cm;
+    }
+
+    page {
+        background: white;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0 auto;
+        margin-bottom: 0.5cm;
+        position: relative;
+    }
+
+    page[size="A4"] {
+        width: 21cm;
+        height: 29.7cm;
+    }
+
+    @page {
+        size: 21cm 29.7cm;
+        margin: 0mm;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+
+    .leftpanel {
+        width: 27%;
+        display: flex;
+        flex-direction: column;
+        background-color: #4a4a4a;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .rightpanel {
+        width: 73%;
+        padding: 10px;
+    }
+    .rightpanel h1{
+        font-size: x-large;
+        font-weight: bold;
+        margin-top: 0.2cm;
+        margin-bottom: 0.2cm;
+        text-transform: uppercase;
+        font-family:Arial, Helvetica, sans-serif}
+        .rightsmalltext {
+            font-size:medium;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+        }
+    
+    .leftpanel h2 {
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       padding: 10px;
+    }
+    .smalltext {
+        font-size: small;
+        color: rgb(196, 200, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+    }
+.linehr{ 
+    border-bottom: 0.05cm solid white;
+    width: 100%;
+}
+
+.details{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+</style>
+</head>
+<body>
+  <page size="A4">  
+        <div class="container">
+
+
+        <div class="leftpanel">
+            <div class="details">
+            <img src="profile.jpg.jpeg">
+            <div class="linehr">
+                <h2>Contact</h2>
+                <p><span class="smalltext">972xxxxxxx</span><br><br>
+
+                <span  class="smalltext">hamxxxx@gmail.com
+                    <br><br>
+                </span><span class="smalltext">   Lucknow UP<br><br> </span>
+                </p>
+               
+                </div>
+                <div class="linehr">
+                <h2>Skills</h2>
+               <span class="smalltext">Languages:C,C++<br><br></span>
+               <span class="smalltext">Web Technologies:<br>
+               </span><span class="smalltext"> HTML,CSS,Javascript.</span>
+                    <br>
+                </div>
+                <h2>Education</h2>
+                <b><span  class="smalltext">High School:</span></b><br>
+                    <span  class="smalltext">  SASMIC (2020)<br><br>
+            <b>Intermediate</b><br>
+               SASMIC(2022)</p></span>
+            </div>
+        </div>
+            <div class="rightpanel">
+                <h1>Mohd Hamza Qidwai</h1>
+                <div class="rightsmalltext">Web Developer</div>
+                <h3>About Me</h3>
+                <p class = "rightsmalltext"> I am an organised, efficient and hard working person, and am willing to discover and accept new ideas which can be put into practice effectively.
+I am a good listener and learner, able to communicate well with a group and on an individual level.
+I am able to motivate and direct my talents and skills to meet objectives.  </p>
+                <h3>Career Objective</h3>
+                <p class="rightsmalltext">To work on a challenging job profile which provides an opportunity to enhance my skills and knowledge.This could provide me an
+                    insights into new aspects so that it would be helpful for my carrier.
+                </p>
+
+                <h3>Structure</h3>
+                <p class="rightsmalltext">
+                    <ul><b><li>Work with positve attitude and contribute towards the healthy functioining of the organisation.</li>
+                    <li>Self confidence and great patience.</li>
+                <li>Analyzing every angle of a project before working on it.</li>
+            <li>Willingness to learn.</li>
+        <li>Adaptibility to change environment.</li></b></ul>
+                </p>
+            </div>
+        </div>
+  </page>
+    
+
+</body>
+
+</html>
